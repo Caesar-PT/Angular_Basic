@@ -11,6 +11,7 @@ import { CountdownTimerComponent } from './countdown-timer/countdown-timer.compo
 import { HackernewsComponent } from './hackernews/hackernews.component';
 import { LikesComponent } from './likes/likes.component';
 import { NamecardComponent } from './namecard/namecard.component';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NamecardComponent } from './namecard/namecard.component';
     CountdownTimerComponent,
     HackernewsComponent,
     LikesComponent,
-    NamecardComponent
+    NamecardComponent,
+    ProgressBarComponent
   ],
     imports: [
         BrowserModule,
