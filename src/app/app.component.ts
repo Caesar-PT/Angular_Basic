@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Calculator';
+  title = 'timer-google';
+
+  isFinish = '';
+
+  finishCoundown() {
+    this.isFinish = 'Ket thuc';
+  }
 }
