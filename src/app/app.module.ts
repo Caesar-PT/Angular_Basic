@@ -10,6 +10,7 @@ import { ColorPickerComponent } from './color-picker/color-picker.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { HackernewsComponent } from './hackernews/hackernews.component';
 import { LikesComponent } from './likes/likes.component';
+import { NamecardComponent } from './namecard/namecard.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LikesComponent } from './likes/likes.component';
     ColorPickerComponent,
     CountdownTimerComponent,
     HackernewsComponent,
-    LikesComponent
+    LikesComponent,
+    NamecardComponent
   ],
     imports: [
         BrowserModule,
